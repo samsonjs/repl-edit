@@ -27,7 +27,7 @@ edit
 
 The first time you run `edit()` in a repl a temporary file is created, specific to that session,
 and opened in your editor. Type away and then save and close the file when you're done. The file
-will be loaded and executed at that time.
+is loaded and executed immediately.
 
 
 run
@@ -39,20 +39,20 @@ To run whatever command you've been working on without editing it again type `ru
 setEditor
 ---------
 
-`setEditor('mate -w')` will change your editor to TextMate for this session. Note that this
-command changes the environment variable EDITOR for the repl process.
+`setEditor('mate -w')` changes your editor to TextMate for this session. Note that this
+command sets the environment variable EDITOR for the repl process.
 
 
 stash
 -----
 
-`stash('/path/to/a/file')` will save your command to the named file.
+`stash('/path/to/a/file')` saves your command to the named file.
 
 
 unstash
 -------
 
-`unstash('/path/to/a/file')` will restore the contents of that file for you to run and/or edit.
+`unstash('/path/to/a/file')` restores the contents of that file for you to run and/or edit.
 
 
 Future
