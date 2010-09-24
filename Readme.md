@@ -3,6 +3,8 @@ repl-edit
 
 Use your text editor to edit commands in Node's repl.
 
+(tip o' the hat to Giles Bowkett for [inspiration](http://gilesbowkett.blogspot.com/2010/09/vim-in-irb-with-utility-belt.html))
+
 
 Installation
 ============
