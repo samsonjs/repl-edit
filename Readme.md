@@ -13,8 +13,10 @@ npm install repl-edit
 Usage
 =====
 
-You can fire up a repl with editing capabilities by running `node-repl-edit`
-or extend an existing repl session by typing `require('repl-edit').extend(global)`.
+You can fire up a repl with editing capabilities by running `node-repl-edit`.
+
+(It would be nice to extend an existing repl session but that's not possible with
+Node's repl module right now.)
 
 
 Commands
@@ -62,6 +64,9 @@ capability to provide commands like `.edit` and `.stash <filename>`.
 
 The first time edit() is run in a repl instead of an empty file the command should be seeded
 with the last command that was executed.
+
+If the native repl module exports the currently running repl object it will be possible to attach
+to an existing repl instead of having to run a separate binary that loads a repl.
 
 
 License
