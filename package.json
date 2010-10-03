@@ -2,7 +2,7 @@
 , "description" : "Edit code in the repl using a real text editor"
 , "version" : "0.0.1"
 , "homepage" : "http://samhuri.net/node/repl-edit"
-, "author" : "Sami Samhuri <sami@samhuri.net> (http://blog.izs.me)"
+, "author" : "Sami Samhuri <sami@samhuri.net>"
 , "repository" :
   { "type" : "git"
   , "url" : "http://github.com/samsonjs/repl-edit.git"
