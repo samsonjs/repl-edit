@@ -1,7 +1,7 @@
 { "name" : "repl-edit"
 , "description" : "Edit code in the repl using a real text editor"
 , "version" : "0.0.3"
-, "homepage" : "http://samhuri.net/node/repl-edit"
+, "homepage" : "http://samhuri.net/proj/repl-edit"
 , "author" : "Sami Samhuri <sami@samhuri.net>"
 , "repository" :
   { "type" : "git"
