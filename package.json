@@ -1,23 +1,23 @@
 { "name" : "repl-edit"
 , "description" : "Edit code in the repl using a real text editor"
-, "version" : "0.0.3"
+, "version" : "0.9.0"
 , "homepage" : "http://samhuri.net/proj/repl-edit"
 , "author" : "Sami Samhuri <sami@samhuri.net>"
 , "repository" :
   { "type" : "git"
-  , "url" : "http://github.com/samsonjs/repl-edit.git"
+  , "url" : "https://github.com/samsonjs/repl-edit.git"
   }
 , "bugs" :
-  { "mail" : "sami.samhuri+repl-edit@gmail.com"
-  , "web" : "http://github.com/samsonjs/repl-edit/issues"
+  { "mail" : "sami.samhuri@gmail.com"
+  , "web" : "https://github.com/samsonjs/repl-edit/issues"
   }
 , "directories" : { "lib" : "./lib" }
 , "bin" : { "node-repl-edit" : "./repl.js" }
 , "main" : "./lib/index"
-, "engines" : { "node" : ">=0.2.0" }
+, "engines" : { "node" : ">=0.4.0" }
 , "licenses" :
   [ { "type" : "MIT"
-    , "url" : "http://github.com/samsonjs/repl-edit/raw/master/LICENSE"
+    , "url" : "https://github.com/samsonjs/repl-edit/raw/master/LICENSE"
     }
   ]
 }
