@@ -15,7 +15,7 @@ Usage
 
 Typically you just type `require('repl-edit')` in node's repl and it will extend it with new commands, just like `.break` and `.clear` that come with node.
 
-You can also fire up a repl with editing capabilities by running `node-repl-edit` in your shell.
+(You can also fire up a repl with editing capabilities by running `node-repl-edit` in your shell)
 
 Commands
 ========
@@ -23,7 +23,7 @@ Commands
 .edit
 -----
 
-`.edit` opens your editor. Type away and then save and close the file when you're done. The command will be loaded and executed immediately.
+The first time you run `.edit` your editor is opened containing the last statement you entered. Type away and then save and close the file when you're done. The code will be loaded and executed immediately. When you subsequently run `.edit` your editor is opened and contains whatever you left there.
 
 Your editor is determined by the `VISUAL` and `EDITOR` environment variables, in that order. You can also change the editor for a single edit by doing something like `.edit vim`.
 
@@ -46,11 +46,6 @@ Your editor is determined by the `VISUAL` and `EDITOR` environment variables, in
 --------
 
 `.unstash /path/to/a/file` restores the contents of that file for you to run and/or edit.
-
-TODO
-====
-
-The first time `.edit` is run instead of an empty file the command should be seeded with the last command that was executed.
 
 License
 =======
