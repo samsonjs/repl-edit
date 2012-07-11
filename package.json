@@ -1,7 +1,7 @@
 {
   "name": "repl-edit",
   "description": "Edit code in the repl using a real text editor",
-  "version": "0.9.4",
+  "version": "0.9.5",
   "homepage": "http://samhuri.net/proj/repl-edit",
   "author": "Sami Samhuri <sami@samhuri.net>",
   "repository": {
@@ -29,5 +29,6 @@
     }
   ],
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "optionalDependencies": {}
 }
