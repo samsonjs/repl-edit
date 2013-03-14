@@ -1,3 +1,13 @@
+# I'M NOT DEAD, I'M JUST RESTING
+
+Beautiful plumage. But this project no longer functions and some of the functionality here has been implemented
+in Node proper via .load and .save in the REPL. I will no longer maintain it (poorly and infrequently).
+
+If you want to contribute a .edit command to Node that would be pretty snazzy. Now that the REPL sucks less
+it's less pressing though. You can paste in some code the REPL doesn't understand, or broken syntax, and
+then Ctrl-C your way out of it.
+
+
 repl-edit
 =========
 
